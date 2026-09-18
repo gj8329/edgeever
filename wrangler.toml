@@ -27,12 +27,10 @@ database_name = "edgeever"
 database_id = "00000000-0000-0000-0000-000000000000"
 migrations_dir = "migrations"
 
-# [[r2_buckets]]
-# binding = "RESOURCES"
-# bucket_name = "edgeever-resources"
-# preview_bucket_name = "edgeever-resources-preview"
+[[r2_buckets]]
+binding = "RESOURCES"
+bucket_name = "edgeever-resources"
+preview_bucket_name = "edgeever-resources-preview"
 
 [observability]
 enabled = true
-[vars]
-EDGE_EVER_STORAGE_PROVIDER = "d1"
